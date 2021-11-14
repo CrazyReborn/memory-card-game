@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from "react";
 import images from './images'
 
-function Gameboard () {
-    const [count, setCount] = useState(0);
+function Gameboard (props) {
+    const {score, setScore} = props;
     useEffect(() => {
         return images.shuffle()
-    }, [count])
+    }, [score]);
+    function handleClick () {
+        setScore(score + 1);
+
+    }
     return (
         <div>
-            <p>{count}</p>
             {images.list.map((image, index) => {
                 return(
-                    <img onClick={e => {setCount(count + 1); console.log(image.url)}} key={image.id} src={image.url} alt={'picture of ' + image.name} />
+                    <img className='image' onClick={e => handleClick()} src={image.url} alt={'picture of ' + image.name} />
                 )       
             })}
         </div>
