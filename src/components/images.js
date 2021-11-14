@@ -74,7 +74,7 @@ const tomato = {
 const images = {
     list: [beet, brocolli, cucumber, garlic, greenPea,
            lemon, onion, orange, potato, tomato],
-    shuffle: function() {
+    shuffle() {
         var j, x, index;
         for (index = this.list.length - 1; index > 0; index--) {
         j = Math.floor(Math.random() * (index + 1));
