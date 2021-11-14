@@ -11,7 +11,7 @@ function Gameboard () {
             <p>{count}</p>
             {images.list.map((image, index) => {
                 return(
-                    <img onClick={e => {setCount(count + 1); console.log(image.url)}} key={image.id} scr={image.url} alt={'picture of ' + image.name} />
+                    <img onClick={e => {setCount(count + 1); console.log(image.url)}} key={image.id} src={image.url} alt={'picture of ' + image.name} />
                 )       
             })}
         </div>
