@@ -24,10 +24,13 @@ function Gameboard (props) {
         }
     }
     return (
-        <div>
+        <div className='gameboard'>
             {images.list.map((image, index) => {
                 return(
-                    <img className='image' onClick={e => handleClick(e)} key={image.id} name={image.name} src={image.url} alt={'picture of ' + image.name} />
+                    <div className='cell' key={image.id}>
+                    <img className='image' onClick={e => handleClick(e)} name={image.name} 
+                    src={image.url} alt={'picture of ' + image.name} />
+                    </div>
                 )       
             })}
         </div>

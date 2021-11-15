@@ -4,8 +4,11 @@ function Score (props) {
     const {score, streak} = props
     return (
         <div className='score' >
-            score: {score}
-            streak: {streak}
+            SCORE: {score} 
+            <br/>
+            <br/>
+            <br/>
+            HIGHEST STREAK: {streak}
         </div>
     )
 }
