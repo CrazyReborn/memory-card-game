@@ -1,0 +1,2 @@
+*{margin:0;padding:0}.image{width:240px;height:180px}.gameboard{display:grid;grid-template-columns:repeat(5,1fr);justify-content:space-around;align-content:center;padding:5%;grid-gap:20% 5%;gap:20% 5%}.cell{background-color:#2b2d42;border-radius:5%;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content}.score{padding-top:2%;padding-left:5%;background-color:#ef233c;height:200px;font-size:xx-large;color:#fff}
+/*# sourceMappingURL=main.72dcf780.chunk.css.map */
