@@ -22,9 +22,9 @@
     "static/media/tomato.20817476.png": "/memory-card-game/static/media/tomato.20817476.png"
   },
   "entrypoints": [
-    "/memory-card-gamestatic/js/runtime-main.0d4e0f3d.js",
-    "/memory-card-gamestatic/js/2.337fe905.chunk.js",
-    "/memory-card-gamestatic/css/main.72dcf780.chunk.css",
-    "/memory-card-gamestatic/js/main.9d9dc64a.chunk.js"
+    "/memory-card-game/static/js/runtime-main.0d4e0f3d.js",
+    "/memory-card-game/static/js/2.337fe905.chunk.js",
+    "/memory-card-game/static/css/main.72dcf780.chunk.css",
+    "/memory-card-game/static/js/main.9d9dc64a.chunk.js"
   ]
 }
